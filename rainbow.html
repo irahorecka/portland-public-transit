@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="3e3469f1-2dab-469f-b5e8-92027ab491e1" data-root-id="22022"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="22640">
+          {"bde15a6a-f8de-432a-a6b8-4805c6a2912e":{"roots":{"references":[{"attributes":{"below":[{"id":"22031","type":"MercatorAxis"}],"center":[{"id":"22039","type":"Grid"},{"id":"22048","type":"Grid"}],"left":[{"id":"22040","type":"MercatorAxis"}],"renderers":[{"id":"22062","type":"TileRenderer"},{"id":"22067","type":"GlyphRenderer"}],"title":{"id":"22069","type":"Title"},"toolbar":{"id":"22055","type":"Toolbar"},"x_range":{"id":"22023","type":"Range1d"},"x_scale":{"id":"22027","type":"LinearScale"},"y_range":{"id":"22025","type":"Range1d"},"y_scale":{"id":"22029","type":"LinearScale"}},"id":"22022","subtype":"Figure","type":"Plot"},{"attributes":{"dimension":1,"ticker":{"id":"22041","type":"MercatorTicker"}},"id":"22048","type":"Grid"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"blue"},"line_color":{"value":"blue"},"size":{"units":"screen","value":5},"x":{"field":"x"},"y":{"field":"y"}},"id":"22065","type":"Circle"},{"attributes":{"tile_source":{"id":"1001","type":"WMTSTileSource"}},"id":"22062","type":"TileRenderer"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":5},"x":{"field":"x"},"y":{"field":"y"}},"id":"22066","type":"Circle"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"22049","type":"PanTool"},{"id":"22050","type":"WheelZoomTool"},{"id":"22051","type":"BoxZoomTool"},{"id":"22052","type":"SaveTool"},{"id":"22053","type":"ResetTool"},{"id":"22054","type":"HelpTool"}]},"id":"22055","type":"Toolbar"},{"attributes":{"formatter":{"id":"22034","type":"MercatorTickFormatter"},"ticker":{"id":"22032","type":"MercatorTicker"}},"id":"22031","type":"MercatorAxis"},{"attributes":{"callback":null,"data":{"x":[-13691304.063756302],"y":[5704098.938553709]},"selected":{"id":"22519","type":"Selection"},"selection_policy":{"id":"22518","type":"UnionRenderers"}},"id":"22064","type":"ColumnDataSource"},{"attributes":{"callback":null,"end":-13644858.232612623,"start":-13665127.619454736},"id":"22023","type":"Range1d"},{"attributes":{},"id":"22049","type":"PanTool"},{"attributes":{"callback":null,"end":5710927.521886856,"start":5696480.836269927},"id":"22025","type":"Range1d"},{"attributes":{},"id":"22050","type":"WheelZoomTool"},{"attributes":{"source":{"id":"22064","type":"ColumnDataSource"}},"id":"22068","type":"CDSView"},{"attributes":{},"id":"22519","type":"Selection"},{"attributes":{},"id":"22027","type":"LinearScale"},{"attributes":{"overlay":{"id":"22517","type":"BoxAnnotation"}},"id":"22051","type":"BoxZoomTool"},{"attributes":{},"id":"22052","type":"SaveTool"},{"attributes":{"dimension":"lon"},"id":"22034","type":"MercatorTickFormatter"},{"attributes":{},"id":"22053","type":"ResetTool"},{"attributes":{"dimension":"lon"},"id":"22032","type":"MercatorTicker"},{"attributes":{},"id":"22029","type":"LinearScale"},{"attributes":{"attribution":"&amp;copy; &lt;a href=\"https://www.openstreetmap.org/copyright\"&gt;OpenStreetMap&lt;/a&gt; contributors,&amp;copy; &lt;a href=\"https://cartodb.com/attributions\"&gt;CartoDB&lt;/a&gt;","url":"https://tiles.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"},"id":"1001","type":"WMTSTileSource"},{"attributes":{},"id":"22518","type":"UnionRenderers"},{"attributes":{"dimension":"lat"},"id":"22043","type":"MercatorTickFormatter"},{"attributes":{},"id":"22054","type":"HelpTool"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"22517","type":"BoxAnnotation"},{"attributes":{"text":"AC Transit Buses - 10/14/2020  19:47"},"id":"22069","type":"Title"},{"attributes":{"formatter":{"id":"22043","type":"MercatorTickFormatter"},"ticker":{"id":"22041","type":"MercatorTicker"}},"id":"22040","type":"MercatorAxis"},{"attributes":{"ticker":{"id":"22032","type":"MercatorTicker"}},"id":"22039","type":"Grid"},{"attributes":{"dimension":"lat"},"id":"22041","type":"MercatorTicker"},{"attributes":{"data_source":{"id":"22064","type":"ColumnDataSource"},"glyph":{"id":"22065","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"22066","type":"Circle"},"selection_glyph":null,"view":{"id":"22068","type":"CDSView"}},"id":"22067","type":"GlyphRenderer"}],"root_ids":["22022"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('22640').textContent;
+                  var render_items = [{"docid":"bde15a6a-f8de-432a-a6b8-4805c6a2912e","roots":{"22022":"3e3469f1-2dab-469f-b5e8-92027ab491e1"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
